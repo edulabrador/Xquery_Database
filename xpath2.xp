@@ -1,0 +1,2 @@
+(:It shows up all the moments when the user bought bircoin over 20000$:)
+//asset[@name="Bitcoin"]//purchasePrice[price > 20000]/date[position() = 1]/text()
