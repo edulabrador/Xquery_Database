@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cryptoExchange>
+
+    <investingProducts>
+    
+        <investingProduct name="Staking" code="EthStkND" durationMin="15" minYield="5">
+            <type>Etherium</type>
+            <started>
+                <quantity>3</quantity>
+				<date>07/01/2022</date>
+                <time>13:55</time>
+            </started>
+            <closed>
+                <quantity>2.5</quantity>
+				<date>07/05/2022</date>
+                <time>23:50</time>
+            </closed>
+            <duration>30</duration>
+            <yield>8</yield>
+        </investingProduct>
+        
+        <investingProduct name="Staking" code="DotStkND" durationMin="25" minYield="10">
+            <type>Polkadot</type>
+            <started>
+                <quantity>145</quantity>
+				<date>24/05/2022</date>
+                <time>14:25</time>
+            </started>
+            <closed>
+                <quantity>145</quantity>
+				<date>07/08/2022</date>
+                <time>12:00</time>
+            </closed>
+            <duration>60</duration>
+            <yield>12</yield>
+        </investingProduct>
+        
+        <investingProduct name="Lending" code="UsdcLND" durationMin="1" minYield="1">
+            <type>Usdc</type>
+            <started>
+                <quantity>3000</quantity>
+				<date>03/08/2022</date>
+                <time>01:35</time>
+            </started>
+            <closed>
+                <quantity>1000</quantity>
+				<date>16/11/2022</date>
+                <time>15:25</time>
+            </closed>
+            <duration>2</duration>
+            <yield>4</yield>
+        </investingProduct>
+        
+        <investingProduct name="Lending" code="BtcLND" durationMin="1" minYield="1">
+            <type>Bitcoin</type>
+            <started>
+                <quantity>0.5</quantity>
+				<date>03/01/2022</date>
+                <time>08:00</time>
+            </started>
+            <closed>
+                <quantity>0.5</quantity>
+				<date>19/08/2022</date>
+                <time>14:30</time>
+            </closed>
+            <duration>3</duration>
+            <yield>2</yield>
+        </investingProduct>
+        
+    </investingProducts>
+
+    <assets>
+    
+        <asset name="Bitcoin" actualPrice="20000" active="yes">
+            <investingProduct code = "BtcLND">Lending</investingProduct>
+            <investingProductUsed>No</investingProductUsed>
+            <purchasePrices>
+                <purchasePrice>
+					<quantity>1</quantity>
+					<date>09/06/2022</date>
+					<time>16:40</time>
+					<price>27000</price>
+				</purchasePrice>
+				
+                <purchasePrice>
+					<quantity>0,5</quantity>
+					<date>09/09/2022</date>
+					<time>19:35</time>
+					<price>32000</price>
+				</purchasePrice>
+				
+				<purchasePrice>
+					<quantity>0,35</quantity>
+					<date>17/03/2022</date>
+					<time>22:00</time>
+					<price>18000</price>
+				</purchasePrice>
+            </purchasePrices>
+        </asset>
+        
+        <asset name="Etherium" actualPrice="1300" active="yes">
+            <investingProduct code = "BtcLND">Staking</investingProduct>
+			<investingProductUsed>No</investingProductUsed>
+            <purchasePrices>
+                <purchasePrice>
+					<quantity>3</quantity>
+					<date>12/06/2022</date>
+					<time>16:49</time>
+					<price>2000</price>
+				</purchasePrice>
+			</purchasePrices>	
+        </asset>
+        
+        <asset name="Polkadot" actualPrice="7" active="yes">
+            <investingProduct code = "DotStkND">Staking</investingProduct>
+			<investingProductUsed>No</investingProductUsed>
+            <purchasePrices>
+                <purchasePrice>
+					<quantity>100</quantity>
+					<date>29/04/2022</date>
+					<time>10:45</time>
+					<price>20</price>
+				</purchasePrice>
+				
+                <purchasePrice>
+					<quantity>130</quantity>
+					<date>09/10/2022</date>
+					<time>13:45</time>
+					<price>6</price>
+				</purchasePrice>
+				
+				<purchasePrice>
+					<quantity>50</quantity>
+					<date>11/05/2022</date>
+					<time>18:00</time>
+					<price>12</price>
+				</purchasePrice>
+            </purchasePrices>
+        </asset>
+        
+        <asset name="Usdc" actualPrice="1" active="yes">
+            <investingProduct code = "UsdcLND">Lending</investingProduct>
+			<investingProductUsed>No</investingProductUsed>
+			<purchasePrices>	
+				<purchasePrice>
+					<quantity>50</quantity>
+					<date>19/07/2022</date>
+					<time>19:00</time>
+					<price>1</price>
+				</purchasePrice>
+            </purchasePrices>
+        </asset>
+        
+        <asset name="DAI" actualPrice="1" active="no">
+            <investingProduct code = "-">None</investingProduct>
+			<investingProductUsed>No</investingProductUsed>
+            <purchasePrices>	
+				<purchasePrice>
+					<quantity>55</quantity>
+					<date>16/09/2022</date>
+					<time>19:00</time>
+					<price>1</price>
+				</purchasePrice>
+            </purchasePrices>
+        </asset>
+        
+        <asset name="Chainlink" actualPrice="7" active="yes">
+            <investingProduct code = "-">None</investingProduct>
+			<investingProductUsed>No</investingProductUsed>
+        </asset>
+        
+        <asset name="Cardano" actualPrice="1" active="no">
+            <investingProduct code = "-">None</investingProduct>
+			<investingProductUsed>No</investingProductUsed>
+            <purchasePrices>
+                <purchasePrice>
+					<quantity>100</quantity>
+					<date>29/04/2022</date>
+					<time>10:45</time>
+					<price>2</price>
+				</purchasePrice>
+				
+                <purchasePrice>
+					<quantity>10</quantity>
+					<date>09/05/2022</date>
+					<time>13:45</time>
+					<price>3</price>
+				</purchasePrice>
+				
+				<purchasePrice>
+					<quantity>500</quantity>
+					<date>11/10/2022</date>
+					<time>18:00</time>
+					<price>1</price>
+				</purchasePrice>
+            </purchasePrices>
+        </asset>
+    
+    </assets>
+
+</cryptoExchange>
