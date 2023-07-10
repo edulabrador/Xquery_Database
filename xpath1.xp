@@ -1,0 +1,2 @@
+(:It shows up all the staking methods that are't blocked for more than 20 days:)
+//investingProduct[not(@name = "Staking")][@durationMin<20]/yield[last()]/text()
